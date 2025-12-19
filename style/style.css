@@ -1,0 +1,236 @@
+/* fontfamily links */
+@font-face {
+  src: url(../font/helvetica-neue-5/helveticaneuebold.otf);
+  font-family: "Helvetica Neue-Bold";
+}
+@font-face {
+  src: url(../font/pt_sans/ptsans-regular.ttf);
+  font-family: "PT Sans Regular";
+}
+@font-face {
+  src: url(../font/pt_sans/ptsans-bold.ttf);
+  font-family: "PT Sans Bold";
+}
+@font-face {
+  src: url(../fontawesome/webfonts/fa-regular-400.woff2);
+  font-family: "fa-regular-400";
+}
+@font-face {
+  src: url(../fontawesome/webfonts/fa-brands-400.woff2);
+  font-family: "fa-brands-400";
+}
+@font-face {
+  src: url(../fontawesome/webfonts/fa-solid-900.woff2);
+  font-family: "fa-solid-900";
+}
+@font-face {
+  src: url(../fontawesome/webfonts/fa-v4compatibility.woff2);
+  font-family: "fa-v4compatibility";
+}
+/* common start */
+.root{
+  --yellow: #FCDB00;
+  --gray: #898989;
+  --black: #000000;
+  --white: #ffffff;
+  --pts_r: "PT Sans Regular", sans-serif;
+  --pts_b: "PT Sans Bold", sans-serif;
+  --hel_h: "Helvetic-neue-bold", sans-serif;
+}
+body{
+  padding-top: 109px;
+  font-family: "PT Sans Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #898989;
+}
+.c_padding{
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+/* common end */
+
+/* header start here */
+header{
+  padding: 20px 0;
+  background-color: #FCDB00;
+}
+/* .c_nav{} */
+/* .logo{} */
+/* .menu{} */
+.menu ul li a{
+  padding: 0 50px !important;
+  font-family: "PT Sans Bold", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #000000 !important;
+}
+.menu ul li:last-child a{
+  padding-right: 0 !important;
+}
+.menu ul li a:hover{
+  color: #ffffff !important;
+}
+/* header end here */
+
+/* slider start here */
+.slider{
+  background-color: #FCDB00;
+  padding-bottom: 100px;
+}
+.c_ind {
+  bottom: -80px;
+}
+.c_ind [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.s_text{
+  margin-top: 50px;
+}
+.s_text h1{
+  font-family: "PT Sans Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #000000;
+}
+.s_text h2{
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: #313841;
+}
+.s_text p{
+  margin-bottom: 35px;
+  color: #555555;
+}
+/* .s_icon{} */
+.s_icon ul li{
+  margin-right: 30px !important;
+}
+.s_icon ul li i{
+  font-size: 42px;
+  color: #000000;
+  transition: .33s;
+}
+.s_icon ul li i:hover{
+  color: #ffffff;
+  transform: scale(.8);
+}
+/* .s_img{} */
+/* .s_img img{} */
+/* slider end here */
+
+/* feature starts here */
+/* .feature{} */
+/* .c_title{} */
+.c_h2{
+  margin-bottom: 15px;
+  font-family: "PT Sans bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #000000;
+}
+.c_p{
+  font-size: 20px;
+  line-height: 28px;
+  
+}
+.f_item{
+  margin-top: 70px;
+}
+/* .f_icon{} */
+.f_icon i{
+  margin-top: 2px;
+  font-size: 50px;
+  color: #000000;
+  transition: .33s;
+}
+.f_icon i:hover{
+  transform: scale(.8);
+}
+/* .f_text{} */
+.f_text h2{
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 400;
+  color: #000000;
+}
+.f_text p{
+  letter-spacing: .5px;
+}
+/* feature end here */
+
+/* contact start here */
+.contact{
+  background-color: #000000;
+}
+.c_yellow{
+  color: #FCDB00;
+}
+.ash{
+  color: #898989;
+}
+.c_form{
+  margin-top: 35px;
+  margin-bottom: 70px;
+}
+.c_input{
+  padding: 15px 20px;
+  height: 55px;
+  font-family: "PT Sans Regular", sans-serif;
+  color: #898989;
+}
+.c_submit{
+  width: 100%;
+  height: 55px;
+  background-color: #FCDB00;
+  font-family: "PT Sans Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+.c_submit:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+/* .c_icon{} */
+.c_icon ul li{
+  margin-right: 35px !important;
+}
+.c_icon ul li:last-child{
+  margin-right: 0 !important;
+}
+.c_icon ul li i{
+  font-size: 42px;
+  color: #FCDB00;
+  transition: .33s;
+}
+.c_icon ul li i:hover{
+  color: #ffffff;
+}
+/* contact end here */
+
+/* footer starts here */    
+footer{
+  background-color: black;
+  padding-bottom: 120px;
+}
+/* .f_1{} */
+.f_1 address{
+  color: #ffffff;
+}
+.f_1 a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.f_2 ul{
+  list-style: none;
+}
+.f_2 ul li a{
+  color: #ffffff;
+  text-decoration: none;
+}
+/* footer end here */
